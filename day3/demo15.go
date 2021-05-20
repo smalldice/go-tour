@@ -12,7 +12,7 @@ type mat2 struct {
 	y int
 }
 
-func main () {
+func main() {
 	v1 := Vertex{1, 2}
 	fmt.Println(v1.X, v1.Y)
 	v1.X = 4
