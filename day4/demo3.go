@@ -1,9 +1,27 @@
 package day4
 
-import "golang.org/x/tour/wc"
+import (
+	"fmt"
+	"strings"
+
+	"golang.org/x/tour/wc"
+)
 
 func WordCount(s string) map[string]int {
-	return map[string]int{"x": 1}
+	parts := strings.Fields(s)
+	m := make(map[string]int)
+
+	for i, v := range parts {
+		fmt.Println(i, v)
+		if m[v] != 0 {
+			m[v] += 1
+		} else {
+			m[v] = 1
+		}
+	}
+
+	fmt.Println(m)
+	return m
 }
 
 func Demo3() {
