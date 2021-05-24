@@ -1,4 +1,4 @@
-package main
+package day3
 
 import "fmt"
 
@@ -13,7 +13,7 @@ var (
 	p  = &Vertex{1, 2} // 创建一个 *Vertex 类型的结构体
 )
 
-func main() {
+func Demo16() {
 	fmt.Println(v1, v2, v3, p)
 
 	c := p

@@ -1,22 +1,22 @@
 // 指针
 
-package main
+package day3
 
 import "fmt"
 
-var p *int
+var p1 *int
 
-func printP () {
+func printP() {
 	fmt.Println(p)
 }
 
-func main () {
+func Demo14() {
 	printP()
 	i := 42
 
-	p = &i
+	p1 = &i
 
 	fmt.Println(*p)
-	*p = 21
+	*p1 = 21
 	fmt.Println(i)
 }

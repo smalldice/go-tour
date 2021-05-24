@@ -1,11 +1,11 @@
-package main
+package day3
 
 import (
 	"fmt"
 	"strings"
 )
 
-func main() {
+func Demo24() {
 	// 创建一个井字棋
 	board := [][]string{
 		[]string{"_", "_", "_"},

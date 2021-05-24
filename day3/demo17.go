@@ -1,8 +1,8 @@
-package main
+package day3
 
 import "fmt"
 
-func main() {
+func Demo17() {
 	var a [2]string // [ ]
 	var b [6]int    //
 	fmt.Println(a)

@@ -1,8 +1,8 @@
-package main
+package day3
 
 import "fmt"
 
-type Vertex struct {
+type Vertex1 struct {
 	X int
 	Y int
 }
@@ -12,8 +12,8 @@ type mat2 struct {
 	y int
 }
 
-func main() {
-	v1 := Vertex{1, 2}
+func Demo15() {
+	v1 := Vertex1{1, 2}
 	fmt.Println(v1.X, v1.Y)
 	v1.X = 4
 	fmt.Println(v1.X)

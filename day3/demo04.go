@@ -1,8 +1,7 @@
-package main
+package day3
 
-func unlimitedLoop () {
+func unlimitedLoop() {
 	for {
 
 	}
 }
-

@@ -1,4 +1,4 @@
-package main
+package day3
 
 import (
 	"fmt"
@@ -13,6 +13,6 @@ func sqrt(x float64) string {
 	return fmt.Sprint(math.Sqrt(x))
 }
 
-func main () {
+func Demo5() {
 	fmt.Println(sqrt(2), sqrt(4))
 }

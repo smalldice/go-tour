@@ -1,8 +1,8 @@
-package main
+package day2
 
 import "fmt"
 
-func main () {
+func Demo6() {
 	var i int
 	var f float64
 	var b bool

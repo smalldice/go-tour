@@ -1,8 +1,8 @@
-package main
+package day3
 
 import "fmt"
 
-func main() {
+func Demo20() {
 	names := [4]string{
 		"John",
 		"George",

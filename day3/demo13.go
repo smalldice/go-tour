@@ -1,8 +1,8 @@
-package main
+package day3
 
 import "fmt"
 
-func main () {
+func Demo13() {
 	fmt.Println("counting")
 
 	for i := 0; i < 10; i++ {

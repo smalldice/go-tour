@@ -1,8 +1,8 @@
-package main
+package day3
 
 import "fmt"
 
-func main() {
+func Demo18() {
 	a := [3]string{"Hello", "world", "Hi"}
 	b := [1]int{}
 	c := [2]bool{0: true}

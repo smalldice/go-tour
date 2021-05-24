@@ -1,8 +1,8 @@
-package main
+package day3
 
 import "fmt"
 
-func main () {
+func Demo3() {
 	sum := 1
 	for sum < 1000 {
 		sum += sum

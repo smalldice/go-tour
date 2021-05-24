@@ -1,11 +1,11 @@
-package main
+package day3
 
 import "fmt"
 
-func main () {
+func Demo2() {
 	sum := 1
 
-	for ; sum < 1000; {
+	for sum < 1000 {
 		sum += sum
 	}
 

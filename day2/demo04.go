@@ -1,4 +1,4 @@
-package main
+package day2
 
 import (
 	"fmt"
@@ -6,13 +6,13 @@ import (
 )
 
 var (
-	ToBe bool = false
-	MaxInt uint64 = 1<<64 -1
-	z complex128 = cmplx.Sqrt(-5 + 12i)
+	ToBe1   bool       = false
+	MaxInt1 uint64     = 1<<64 - 1
+	z1      complex128 = cmplx.Sqrt(-5 + 12i)
 )
 
-func main() {
-	fmt.Printf("Type: %T Value: %v\n",ToBe, ToBe)
-	fmt.Printf("Type: %T Value: %v\n", MaxInt, MaxInt)
-	fmt.Printf("Type: %T Value: %v\n", z, z)
+func Demo4() {
+	fmt.Printf("Type: %T Value: %v\n", ToBe1, ToBe1)
+	fmt.Printf("Type: %T Value: %v\n", MaxInt1, MaxInt1)
+	fmt.Printf("Type: %T Value: %v\n", z1, z1)
 }

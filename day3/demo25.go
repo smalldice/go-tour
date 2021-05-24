@@ -1,10 +1,10 @@
-package main
+package day3
 
 import "fmt"
 
 // 使用内建 append(s, element) 来扩充切片
 
-func main() {
+func Demo25() {
 	var s []int
 	printSlice(s)
 

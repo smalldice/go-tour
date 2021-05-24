@@ -1,12 +1,12 @@
-package main
+package day1
 
 import "fmt"
 
-func swap(x, y string) (string, string){
+func swap(x, y string) (string, string) {
 	return y, x
 }
 
-func main() {
+func Demo5() {
 	a, b := swap("hello", "world")
 	fmt.Println("hello world swapped result is ", a, b)
 }

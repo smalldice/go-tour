@@ -1,8 +1,8 @@
-package main
+package day2
 
 import "fmt"
 
-func main() {
+func Demo7() {
 	i := 4
 	f := float64(i)
 	u := uint(f)

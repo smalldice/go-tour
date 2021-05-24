@@ -1,9 +1,9 @@
-package main
+package day2
 
 import "fmt"
 
-func main () {
-	var a int = 1;
+func Demo2() {
+	var a int = 1
 	var c, java, python = false, 2, "no"
 
 	fmt.Println(a)

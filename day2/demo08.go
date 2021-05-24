@@ -1,12 +1,12 @@
-package main
+package day2
 
 import (
 	"fmt"
 	"math"
 )
 
-func main () {
-	x,y := 3, 4
+func Demo8() {
+	x, y := 3, 4
 	f := math.Sqrt(float64(x*x + y*y))
 	z := uint(f)
 	fmt.Println(x, y, z)

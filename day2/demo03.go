@@ -1,8 +1,8 @@
-package main
+package day2
 
 import "fmt"
 
-func main () {
+func Demo3() {
 	k := 2
 	fmt.Println(k)
 }

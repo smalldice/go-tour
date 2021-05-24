@@ -1,8 +1,8 @@
-package main
+package day3
 
 import "fmt"
 
-func main() {
+func Demo21() {
 	q := []int{2, 3, 5, 7, 11, 13}
 	fmt.Println(q)
 

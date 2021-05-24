@@ -1,4 +1,4 @@
-package main
+package day2
 
 import (
 	"fmt"
@@ -6,12 +6,12 @@ import (
 )
 
 var (
-	ToBe bool = false
-	MaxInt uint64 = 1<<64 - 1
-	z complex128 = cmplx.Sqrt(-5 + 12i) // 复数
+	ToBe   bool       = false
+	MaxInt uint64     = 1<<64 - 1
+	z      complex128 = cmplx.Sqrt(-5 + 12i) // 复数
 )
 
-func main() {
+func Demo5() {
 	fmt.Printf("Type %T Value: %v\n", ToBe, ToBe)
 	fmt.Printf("Type %T Value: %v\n", MaxInt, MaxInt)
 	fmt.Printf("Type %T Value: %v\n", z, z)

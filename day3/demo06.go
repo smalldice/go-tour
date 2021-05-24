@@ -1,11 +1,11 @@
-package main
+package day3
 
 import (
 	"fmt"
 	"math"
 )
 
-func pow(x, n, lim float64) float64 {
+func myPow(x, n, lim float64) float64 {
 	if v := math.Pow(x, n); v < lim {
 		return v
 	}
@@ -13,9 +13,9 @@ func pow(x, n, lim float64) float64 {
 	return lim
 }
 
-func main () {
+func Demo6() {
 	fmt.Println(
-		pow(3, 2, 10),
-		pow(3, 3, 20),
+		myPow(3, 2, 10),
+		myPow(3, 3, 20),
 	)
 }

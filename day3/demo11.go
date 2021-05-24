@@ -1,14 +1,14 @@
-package main
+package day3
 
 import (
 	"fmt"
 	"time"
 )
 
-func main () {
+func Demo11() {
 	fmt.Print("When's Saturday? ")
 	today := time.Now().Weekday()
-	
+
 	switch time.Saturday {
 	case today + 0:
 		fmt.Println("Today")

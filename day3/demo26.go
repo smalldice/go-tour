@@ -1,10 +1,10 @@
-package main
+package day3
 
 import "fmt"
 
 var pow = []int{1, 2, 4, 8, 16, 32, 64, 128}
 
-func main() {
+func Demo26() {
 	// range pow 返回切片的 下标 和 下标对应的value
 	for i, v := range pow {
 		fmt.Printf("2 ** %d = %d \n", i, v)
