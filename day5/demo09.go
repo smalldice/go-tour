@@ -19,5 +19,5 @@ func Demo9() {
 
 	f, ok := i.(float64)
 
-	fmt.Println(f)
+	fmt.Println(f, ok)
 }

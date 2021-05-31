@@ -1,6 +1,6 @@
 package main
 
-import "learning/day5"
+import "learning/day6"
 
 func main() {
 	// day4.Demo3()
@@ -23,5 +23,8 @@ func main() {
 	// day5.Demo11()
 	// day5.Demo12()
 	// day5.Demo13()
-	day5.Demo14()
+	// day5.Demo14()
+	// day6.Demo1()
+	// day6.Demo2()
+	day6.Demo3()
 }
